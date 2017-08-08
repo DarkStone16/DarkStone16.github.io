@@ -4,4 +4,4 @@ Le stage effectué les 2 derniers mois s'est déroulé au sein du Ministère de 
 
 A mon arrivée, j'ai retrouvé mon tuteur qui m'a tout d'abord montré mon bureau ainsi que mes nouveaux collègues. Comme vous pouvez le voir sur l'organigramme, je faisais parti du BCA, le Bureau de la Conception Applicative. Après avoir fait la connaissance des nombreuses personnes travaillant autour de moi, j'ai pu rejoindre mon lieu de travail pour installer le matériel.   
   
-  <img src="DSIC Organigramme.jpg" alt="Organigramme" style="width: 100px; text-align= center"/>
+  <img src="DSIC Organigramme.jpg" alt="Organigramme" style="width: 500px; display: block; margin: auto"/>
