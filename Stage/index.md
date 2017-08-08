@@ -4,4 +4,4 @@ Le stage que j'ai effectué les 2 derniers mois s'est déroulé au sein du Minis
 
 A mon arrivée, j'ai retrouvé mon tuteur qui m'a tout d'abord montré mon bureau ainsi que mes nouveaux collègues. Comme vous pouvez le voir sur l'organigramme, je faisais parti du BCA, le Bureau de la Conception Applicative. Après avoir fait la connaissance des nombreuses personnes qui travaillent autour de moi, j'ai pu rejoindre mon lieu de travail pour installer le matériel. 
 
-![Organigramme](/img/Organigramme_DSIC)
+![Organigramme](Stage-2017/img/DSIC Organigramme.jpg)
