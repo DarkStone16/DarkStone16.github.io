@@ -1,4 +1,4 @@
-### [](#header-1)Rapport de Stage
+# [](#header-1)Rapport de Stage
 
 Le stage effectué les 2 derniers mois s'est déroulé au sein du Ministère de l'Intérieur, dans l'immeuble Lumière situé au cœur du 12ème arrondissement de Paris. Ce lieu, non loin de Bercy Village, est un endroit où il est agréable de se rendre chaque matin. L'édifice, composé de 8 étages et de 4 sous-sols, est un des plus grands immeubles de bureaux de Paris. Ses ascenseurs panoramiques aux allures futuristes et ses escalators de part et d'autre font rêver au 1er coup d’œil. 
   
