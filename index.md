@@ -15,7 +15,8 @@ La prise en main de mon système d'exploitation commencée (Ubuntu 16.04 LTS), j
 
 A l'aide d'un tutoriel de mise en pratique des connaissances théoriques, appelé Githug et écrit en Ruby, j'ai approfondi mes connaissances concernant les commandes de Terminale de Git (git revert, git diff, git bisect etc.), et possède désormais de solides bases utiles tout au long de ma scolarité.
 
-  <img src="Githug Screenshot.png" alt="Githug Screenshot" style="width: 800px; display: block; margin: auto"/>
+  <img src="Githug Screenshot.png" alt="Githug Screenshot" style="width: 600px; display: block; margin: auto"/>
+  <img src="Githug-Logo.jpg" alt="Githug Screenshot" style="width: 200px; display: block; margin: auto"/>
 
 
 ## [](#header-2)Docker
