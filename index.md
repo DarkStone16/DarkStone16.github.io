@@ -1,4 +1,4 @@
-# [](#header-1)Rapport de Stage
+# [](#header-1)Rapport de Stage - 02/06 au 11/08
 
 Le stage effectué les deux derniers mois s'est déroulé au sein du Ministère de l'Intérieur, dans l'immeuble Lumière situé au cœur du douzième arrondissement de Paris. Ce lieu, non loin de Bercy Village, est un endroit où il est agréable de se rendre chaque matin. L'édifice, composé de huit étages et de quatre sous-sols, est un des plus grands immeubles de bureaux de Paris. Ses ascenseurs panoramiques aux allures futuristes et ses escalators de part et d'autre font rêver au premier coup d’œil. 
   
@@ -46,7 +46,7 @@ Git est un logiciel de gestion de versions décentralisé, permettant à plusieu
   <img src="https://f.hypotheses.org/wp-content/blogs.dir/3252/files/2017/03/basic-remote-workflow-git.png" alt="Githug Logo" style="width: 600px; display: inline-block; margin: auto;"/>  
 
 
-## [](#header-2)Docker - 2ème semaine 
+## [](#header-2)Docker - 2ème et 3ème semaine 
 
   <img src="docker-logo.png" alt="Logo Docker" style="width: 200px"/>
 
@@ -54,5 +54,15 @@ Le premier outil sur lequel j'ai du travaillé s'intitule Docker. Il s'agit d'un
 
   <img src="VMS-Docker.jpg" alt="VMS vs Docker" style="width: 500px; display: block; margin: auto"/>
   
+Un des avantages notables d'un conteneur Docker, en comparaison à une machine virtuelle, est son faible poids étant donné que ce dernier ne dispose pas d'OS, ce qui permet un lancement plus rapide et une migration facile. Aussi, il est possible de containériser une application, avec pour chaque couche des conteneurs isolant ses composants. Ce concept d'architecture de microservices est très utile du côté de la production.
+
   <img src="Dockerfile-Screenshot.png" alt="Dockerfile Screenshot" style="width: 600px; display: block; margin: auto"/>
+
+L'utilisation de conteneurs s'opére grâce à un Terminale à l'aide de commandes diverses, même si ce dernier dispose dorénavant d'une interface graphique.
+J'ai donc d'abord appris comment constuire un conteneur ainsi que tous les éléments nécessaires à son fonctionnement. Ensuite, j'ai réalisé un conteneur pour le développement de l'application que je devais réaliser.
+
+
+## [](#header-2)Symfony - De la 4ème à la 7ème semaine
+
+
 
