@@ -52,7 +52,7 @@ Git est un logiciel de gestion de versions décentralisé, permettant à plusieu
 
 Le premier outil sur lequel j'ai du travaillé s'intitule Docker. Il s'agit d'un logiciel libre permettant la mise en oeuvre de conteneurs s'exécutant en isolation, via une API de haut-niveau. Ce dernier utilise les fonctionnalités du noyau Linux et contrairement à une VM, il ne dispose pas de système d'exploitation. Le conteneur s'instancie grâce à une image Docker, regroupant un système de fichiers et un ensemble de paramètres. 
 
-  <img src="VMS-Docker.jpg" alt="VMS vs Docker" style="width: 600px; display: block; margin: auto"/>
+  <img src="VMS-Docker.jpg" alt="VMS vs Docker" style="width: 500px; display: block; margin: auto"/>
   
   <img src="Dockerfile-Screenshot.png" alt="Dockerfile Screenshot" style="width: 600px; display: block; margin: auto"/>
 
