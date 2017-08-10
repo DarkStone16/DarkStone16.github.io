@@ -17,8 +17,10 @@ Cette entité comprend environ cent trente agents, répartis en cinq bureaux :
 * Bureau des Applications Transverses (BAT)
 * Bureau des Tests et de l'Intégration (BTI)
 
+
 Le BCA (Bureau de la Conception Applicative) (relation client) est, au sein de la SDA, le bureau composé des métiers amont du cycle de vie du projet (l'assistance à la maîtrise d'ouvrage, la conception, l'architecture applicative, le développement, le support projet des bases de données, la gestion des référentiels et des composants).
-Le BCA compte environ trente personnes, réparties en trois sections : ''Assistance à maîtrise d'ouvrage'', ''Conception, Architecture, Référentiels'', ''Solutions et Développement''
+
+Il compte environ trente personnes, réparties en trois sections : ''Assistance à maîtrise d'ouvrage'', ''Conception, Architecture, Référentiels'', ''Solutions et Développement''
   
  
   <img src="DSIC Organigramme.jpg" alt="Organigramme" style="width: 800px; display: block; margin: auto"/>
