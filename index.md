@@ -51,3 +51,6 @@ Le premier outil sur lequel j'ai du travaillé s'intitule Docker. Il s'agit d'un
 
   <img src="docker-logo.png" alt="Logo Docker" style="width: 200px; display: inline-block; margin: auto"/>
   <img src="VMS-Docker.jpg" alt="VMS vs Docker" style="width: 600px; display: inline-block; margin: auto"/>
+  
+  <img src="Dockerfile-Screenshot.png" alt="Dockerfile Screenshot" style="width: 600px; display: block; margin: auto"/>
+
