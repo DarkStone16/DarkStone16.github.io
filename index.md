@@ -25,11 +25,12 @@ La prise en main de mon système d'exploitation commencée (Ubuntu 16.04 LTS), j
 A l'aide d'un tutoriel de mise en pratique des connaissances théoriques, appelé Githug et écrit en Ruby, j'ai approfondi mes connaissances concernant les commandes de Terminale de Git (git revert, git diff, git bisect etc.), et possède désormais de solides bases utiles tout au long de ma scolarité.
   
   
-  <img src="Githug Screenshot.png" alt="Githug Screenshot" style="width: 600px; display: block; margin: auto; position:relative"/>
-  <img src="Githug-Logo.jpg" alt="Githug Screenshot" style="width: 200px; display: block; margin: auto; position: relative"/>
+  <img src="Githug Screenshot.png" alt="Githug Logo" style="width: 600px; display: inline-block; margin: auto;"/>
+  <img src="Githug-Logo.jpg" alt="Githug Screenshot" style="width: 200px; display: inline-block; margin: auto;"/>
 
 ## [](#header-2)Docker
 
 Le premier outil sur lequel j'ai du travaillé s'intitule Docker. Il s'agit d'un logiciel libre permettant la mise en oeuvre de conteneurs s'exécutant en isolation, via une API de haut-niveau. Ce dernier utilise les fonctionnalités du noyau Linux et contrairement à une VM, il ne dispose pas de système d'exploitation. Le conteneur s'instancie grâce à une image Docker, regroupant un système de fichiers et un ensemble de paramètres. 
 
+  <img src="docker-logo.png" alt="Logo Docker" style="width: 800px; display: block; margin: auto"/>
   <img src="VMS-Docker.jpg" alt="VMS vs Docker" style="width: 800px; display: block; margin: auto"/>
