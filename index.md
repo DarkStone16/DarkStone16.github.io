@@ -9,6 +9,7 @@ La SDA (Sous-direction des Applications) est en charge :
 * du pilotage des projets applicatifs jusqu’à la vérification du service régulier (assistance à maîtrise d'ouvrage, étude et estimation des solutions techniques, conception, développement, tests et intégration)
 * du pilotage des moyens opérationnels affectés aux projets (budget des projets, préparation et suivi des marchés)
 * de la maintenance ''projet'' (corrective ou adaptative, évolutive en appliquant le processus projet)
+
 Cette entité comprend environ cent trente agents, répartis en cinq bureaux :
 * Bureau du Pilotage Applications (BPA)
 * Bureau de la Conception Applicative (BCA)
