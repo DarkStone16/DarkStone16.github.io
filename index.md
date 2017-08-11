@@ -66,7 +66,41 @@ J'ai donc d'abord appris comment constuire un conteneur ainsi que tous les élé
 
 Il est le 2ème outil sur lequel il m'a été donné de travaillé. 
 
-Symfony est à la fois un assemblage de composants PHP et un framework Web Application en PHP.
+Symfony est à la fois un assemblage de composants PHP et un framework open source en PHP, développé par des informaticiens français de SensioLabs et à destinations d'autres développeurs.
+
+Il permet de travailler de façon plus structurée et rigoureuse (aménagements structurants définis par le squelette de tout projet Symfony) et plus rapidement (réutilisation de modules). 
+Il facilite aussi la maintenance à long terme et l'évolutivité en proposant dès la conception un ensemble de normes de développement. Il fournit un contexte de développement complet avec un outil de debug.
+
+
+#### [](#header-4)Arborescence
+
+Son arborescence est ainsi organisé:
+* Le dossier *app*    : configurations de l'application, traductions, templates etc
+* Le dossier *bin*    : fichiers exécutables (ex: bin/console)
+* Le dossier *src*    : code source de l'application, organisé en bundles
+* Le dossier *var*    : fichiers générés (cache, logs, etc.)
+* Le dossier *web*    : fichiers publics accessibles (css, js, images etc.)
+* Le dossier *tests*  : liste des tests unitaires et fonctionnels
+* Le dossier *vendor* : dépendances tiers de l'application
+
+
+#### [](#header-4)MVC
+
+L'architecture de Symfony 3 respecte l'architecture MVC (Modèle - Vue - Contrôleur), qui permet de séparer les différentes parties du code d'une manière logique.
+
+Le contrôleur gère la dynamique de l'application. Elle fait le lien entre l'utilisateur et le reste de l'application.
+Le modèle encapsule la logique métier ainsi que l'accès aux données. Il peut s'agir d'un ensemble de fonctions (Modèle procédural) ou de classes (Modèle orienté objet).
+La vue s'occupe des interactions avec l'utilisateur : présentation, saisie et validation des données.
+
+Cette manière d'organiser le code permet une meilleure conception du logiciel et notamment un gain de temps dans sa maintenance. Cependant, cela implique trois fois plus de fichiers et une architecture plus complexe.
+
+#### [](#header-4)Bundles
+
+Un bundle est une brique d’une application, un répertoire qui contient tout ce qui concerne une fonctionnalité donnée. Cela permet de bien organiser les différentes parties d’un site. 
+Un des avantages de cette découpe en bundles est la possibilité de partager à la communauté les bundles réalisés, ou alors de les réutiliser dans une autre application, voir même d'utiliser des bundles développés par d'autres utilisateurs (des exemples connus tels que FOSUserBundle, FOSRestBundle etc).
+
+Il s'organise d'une manière bien précise, avec un dossier Controller où l'on déposera nos contrôleurs avec la convention de nommage suivante: *nomcontroleurController*. On trouve aussi un dossier Entity où sont stockés tous nos modèles. Et enfin un dossier Resources est également présent, avec des sous-dossiers *config* (fichiers de configuration du bundle), *public* (fichiers js, css, img etc), *views* (vues de notre bundle).
+
 
 ## [](#header-2)Drupal 8 - De la 8ème à la 11ème semaine
 
