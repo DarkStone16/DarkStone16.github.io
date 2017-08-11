@@ -71,6 +71,7 @@ Symfony est à la fois un assemblage de composants PHP et un framework open sour
 Il permet de travailler de façon plus structurée et rigoureuse (aménagements structurants définis par le squelette de tout projet Symfony) et plus rapidement (réutilisation de modules). 
 Il facilite aussi la maintenance à long terme et l'évolutivité en proposant dès la conception un ensemble de normes de développement. Il fournit un contexte de développement complet avec un outil de debug.
 
+
 #### [](#header-4)Arborescence
 
 Son arborescence est ainsi organisé:
@@ -93,6 +94,7 @@ La vue s'occupe des interactions avec l'utilisateur : présentation, saisie et v
 
 Cette manière d'organiser le code permet une meilleure conception du logiciel et notamment un gain de temps dans sa maintenance. Cependant, cela implique trois fois plus de fichiers et une architecture plus complexe.
 
+
 #### [](#header-4)Bundles
 
 Un bundle est une brique d’une application, un répertoire qui contient tout ce qui concerne une fonctionnalité donnée. Cela permet de bien organiser les différentes parties d’un site. 
@@ -102,7 +104,7 @@ Il s'organise d'une manière bien précise, avec un dossier Controller où l'on 
   
   
    
-Durant ces 4 semaines, il m'a tout d'abord été donné de suivre le tutoriel "Développez votre site web avec le framework Symfony" d'OpenClassroom afin de posséder toutes les bases et pouvoir débuter un nouveau projet. 
+Durant ces quatre semaines, il m'a tout d'abord été donné de suivre le tutoriel "Développez votre site web avec le framework Symfony" d'OpenClassroom afin de posséder toutes les bases et pouvoir débuter un nouveau projet. 
 Après avoir étudié les nombreux concepts de Symfony 3, j'ai commencé la mise en place du projet en utilisant la console grâce à la commande "php symfony new nomduprojet". J'ai du générer un nouveau bundle afin de pouvoir créer l'essence de notre site puis installer les bundles développés par la communauté de Symfony, FOSUserBundle et FOSRestBundle, grâce à Composer. Composer est un gestionnaire de paquets écrit en PHP. Aussi, Bower, un outil de gestion des dépendances, m'a permis de disposer de certains outils indispensables (JQuery, Bootstrap etc.). Après avoir configurer Symfony et FOSUserBundle, je me suis attelé à la conception des vues du site, tout en devant passer outre les vues de base de FOSUser. Je me suis aussi occupé de la gestion des rôles des utilisateurs, à l'inscription, pour leur donner un rôle de base. J'ai réalisé également un tableau affiché seulement pour les utilisateurs disposant du rôle ROLE_ADMIN, afin que ce dernier puisse gérer facilement les utilisateurs inscrits. Pour étudier tous les aspects et le champ des possibilités de Symfony, j'ai suivi le tutoriel "Construisez une API REST avec Symfony", certaines notions m'échappant encore. 
 A la fin de l'étude de ce framework, j'ai acquis un nombre de connaissances surprenantes me permettant désormais de réaliser des projets importants, tout en simplifiant mon travail de développeur. Une communauté active articulé tout autour de Symfony est une ressource utile. Dès lors qu'un problème se présente, on peut facilement trouver une solution grâce à ce soutien.
 En résumé, Symfony 3 est un outil très utile dans le but de réaliser un gros projet, il permet de construire son code d'une manière précise et claire, et de bien l'organiser. De plus, son accessibilité en tant que framework open-source n'est pas non plus négligeable. Un temps d'apprentissage plutôt long et fastidieux est à prendre en compte, mais le résultat final est satisfaisant.
@@ -110,4 +112,24 @@ En résumé, Symfony 3 est un outil très utile dans le but de réaliser un gros
 
 
 ## [](#header-2)Drupal 8 - De la 8ème à la 11ème semaine
+
+Le dernier outil utilisé était Drupal 8, un CMS (Content Manager System) libre et open-source  permettant de gérer le contenu d'un site web simplement, sans passer par un développeur. Aujourd'hui, la 8ème version de Drupal facilite la tâche des développeurs en utilisant les bases de Symfony 2. Sa flexibilité lui permet de répondre à la très grande majorité des besoins du marché: blog, annuaire, site marchand ou intranets. La qualité du code et la robustesse de son interface de programmation (API), font que Drupal est également présenté comme un environnement de développement PHP (Framework). On parle alors de « Content Management Framework ».
+On appelle modules les parties d'application permettant d'ajouter des fonctionnalités à ce CMS. Ainsi, il devient désormais facile pour un développeur d'écrire une nouvelle fonctionnalité à Drupal. Après avoir créer un dossier modules, il suffit de créer quelques fichiers de base (nommodule.routing.yml, nommodule.info.yml, src/Controller/NomController.php etc) pour avoir un rendu de notre module. De nombreux modules de base sont maintenant intégrés à Drupal, dès lors de l'installation, et ceux-ci sont activable ou désactivables grâce à l'interface du Super-Admin. De plus, un des points positifs de ce module est la facilité à les transposer vers un autre utilisateur, et ce sans besoin de développeur pour intégrer le module, l'installation se faisant automatiquement par l'interface administrateur de l'utilisateur.
+
+
+#### [](#header-4)Arborescence
+
+
+Son arborescence est ainsi organisé:
+* Le fichier *index.php*    : point d'entrée de Drupal
+* Le dossier *core*         : répertoires et de fichiers nécessaires au fonctionnement de Drupal
+* Le dossier *modules*      : modules contributeurs pour ajouter des fonctionnalités
+* Le dossier *themes*       : thèmes additionels que l'on voudrait installer
+* Le dossier *profiles*     : fichiers permettant une installation afin de transformer le site dans un but précis
+* Le dossier *sites*        : fichiers publics du site (images, css, js etc.)
+
+
+
+
+Les quatre dernières semaines ont donc été consacré à la découverte de Drupal et à la création d'un gestionnaire de tâches. Après avoir téléchargé ses composants, j'ai débuté la configuration du site qui est plutôt simple et guidé. J'ai par la suite écrit les premières lignes de code de mon module, et après quelques problèmes, j'ai réussi à afficher un aperçu de ma réalisation. Cependant, j'ai remarqué une absence de solutions lors de la confrontation à certains problèmes, peut-être dû à une communauté moins présente que celle de Symfony. Les tutoriels ne sont pas non plus présents en masse et freinent l'avancée du projet, à l'inverse de Symfony 3 où l'on était guidé notamment par OpenClassroom. Pour pouvoir créer une entité et les nombreux fichiers associés, j'ai du passer par la console Drupal qui, comme celle de Symfony, permet un gain de temps non négligeable. Cependant, malgré la rapidité d'exécution, on se retrouve avec de nombreux fichiers et ceux-ci utilisant d'autres documents du Core de Drupal, il devient vite difficile de personnaliser son module et de faire exactement ce que l'on souhaite. Après de nombreuses recherches, j'ai finalement réussi à sortir les éléments souhaités, mais de nombreux problèmes restaient encore à résoudre, notamment l'affichage des tâches selon l'utilisateur authentifié et celles qu'il a créées. 
 
