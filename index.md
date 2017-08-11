@@ -71,7 +71,6 @@ Symfony est à la fois un assemblage de composants PHP et un framework open sour
 Il permet de travailler de façon plus structurée et rigoureuse (aménagements structurants définis par le squelette de tout projet Symfony) et plus rapidement (réutilisation de modules). 
 Il facilite aussi la maintenance à long terme et l'évolutivité en proposant dès la conception un ensemble de normes de développement. Il fournit un contexte de développement complet avec un outil de debug.
 
-
 #### [](#header-4)Arborescence
 
 Son arborescence est ainsi organisé:
@@ -100,6 +99,14 @@ Un bundle est une brique d’une application, un répertoire qui contient tout c
 Un des avantages de cette découpe en bundles est la possibilité de partager à la communauté les bundles réalisés, ou alors de les réutiliser dans une autre application, voir même d'utiliser des bundles développés par d'autres utilisateurs (des exemples connus tels que FOSUserBundle, FOSRestBundle etc).
 
 Il s'organise d'une manière bien précise, avec un dossier Controller où l'on déposera nos contrôleurs avec la convention de nommage suivante: *nomcontroleurController*. On trouve aussi un dossier Entity où sont stockés tous nos modèles. Et enfin un dossier Resources est également présent, avec des sous-dossiers *config* (fichiers de configuration du bundle), *public* (fichiers js, css, img etc), *views* (vues de notre bundle).
+  
+  
+   
+Durant ces 4 semaines, il m'a tout d'abord été donné de suivre le tutoriel "Développez votre site web avec le framework Symfony" d'OpenClassroom afin de posséder toutes les bases et pouvoir débuter un nouveau projet. 
+Après avoir étudié les nombreux concepts de Symfony 3, j'ai commencé la mise en place du projet en utilisant la console grâce à la commande "php symfony new nomduprojet". J'ai du générer un nouveau bundle afin de pouvoir créer l'essence de notre site puis installer les bundles développés par la communauté de Symfony, FOSUserBundle et FOSRestBundle, grâce à Composer. Composer est un gestionnaire de paquets écrit en PHP. Aussi, Bower, un outil de gestion des dépendances, m'a permis de disposer de certains outils indispensables (JQuery, Bootstrap etc.). Après avoir configurer Symfony et FOSUserBundle, je me suis attelé à la conception des vues du site, tout en devant passer outre les vues de base de FOSUser. Je me suis aussi occupé de la gestion des rôles des utilisateurs, à l'inscription, pour leur donner un rôle de base. J'ai réalisé également un tableau affiché seulement pour les utilisateurs disposant du rôle ROLE_ADMIN, afin que ce dernier puisse gérer facilement les utilisateurs inscrits. Pour étudier tous les aspects et le champ des possibilités de Symfony, j'ai suivi le tutoriel "Construisez une API REST avec Symfony", certaines notions m'échappant encore. 
+A la fin de l'étude de ce framework, j'ai acquis un nombre de connaissances surprenantes me permettant désormais de réaliser des projets importants, tout en simplifiant mon travail de développeur. Une communauté active articulé tout autour de Symfony est une ressource utile. Dès lors qu'un problème se présente, on peut facilement trouver une solution grâce à ce soutien.
+En résumé, Symfony 3 est un outil très utile dans le but de réaliser un gros projet, il permet de construire son code d'une manière précise et claire, et de bien l'organiser. De plus, son accessibilité en tant que framework open-source n'est pas non plus négligeable. Un temps d'apprentissage plutôt long et fastidieux est à prendre en compte, mais le résultat final est satisfaisant.
+
 
 
 ## [](#header-2)Drupal 8 - De la 8ème à la 11ème semaine
